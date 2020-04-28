@@ -161,6 +161,7 @@ endif()
 # Prerequesites
 #-----------------------------------------------------------------------------
 
+message("MITK_DIR is " ${MITK_DIR})
 find_package(MITK 2016.11.0 REQUIRED)
 
 if(COMMAND mitkFunctionCheckMitkCompatibility)
